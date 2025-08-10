@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class solution2 {
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+
+	        int rollNumber = scanner.nextInt();
+	        scanner.close(); 
+
+	        String result = "NO";
+
+	        if (rollNumber % 44 == 0 || rollNumber % 47 == 0 ||
+	            rollNumber % 74 == 0 || rollNumber % 77 == 0 ||
+	            rollNumber % 444 == 0 || rollNumber % 447 == 0 ||
+	            rollNumber % 474 == 0 || rollNumber % 477 == 0 ||
+	            rollNumber % 744 == 0 || rollNumber % 747 == 0 ||
+	            rollNumber % 774 == 0 || rollNumber % 777 == 0) {
+	            result = "YES";
+	        }
+
+	        System.out.println(result);
+	    
+}
