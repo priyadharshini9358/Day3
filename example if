@@ -1,0 +1,21 @@
+public class Conditional {
+	public static void main(String[] args) {
+		int num=7;
+	
+		if(num==7) {
+		System.out.println("The number is 7");
+	}
+		if(num>5) {
+			System.out.println("the number is >5");
+		}
+		if(num<10) {
+			System.out.println("the number is <10");
+		}
+	
+		else {
+			System.out.println("nothing");
+		
+		}
+	}	
+	
+}
